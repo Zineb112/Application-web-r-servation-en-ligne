@@ -432,3 +432,4 @@ C:\Users\Youcode\Desktop\booking-web-App\Bookingapp\Bookingapp\bin\Debug\netcore
 C:\Users\Youcode\Desktop\booking-web-App\Bookingapp\Bookingapp\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Youcode\Desktop\booking-web-App\Bookingapp\Bookingapp\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Youcode\Desktop\booking-web-App\Bookingapp\Bookingapp\obj\Debug\netcoreapp3.1\Razor\Views\Admin\CreateRole.cshtml.g.cs
+C:\Users\Youcode\Desktop\booking-web-App\Bookingapp\Bookingapp\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ListRoles.cshtml.g.cs
