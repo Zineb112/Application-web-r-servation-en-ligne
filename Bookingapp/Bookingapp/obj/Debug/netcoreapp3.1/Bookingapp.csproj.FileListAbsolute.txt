@@ -437,3 +437,4 @@ C:\Users\Youcode\Desktop\booking-web-App\Bookingapp\Bookingapp\obj\Debug\netcore
 C:\Users\Youcode\Desktop\booking-web-App\Bookingapp\Bookingapp\obj\Debug\netcoreapp3.1\Razor\Views\TypeReservation\Index.cshtml.g.cs
 C:\Users\Youcode\Desktop\booking-web-App\Bookingapp\Bookingapp\obj\Debug\netcoreapp3.1\Razor\Views\TypeReservation\Create.cshtml.g.cs
 C:\Users\Youcode\Desktop\booking-web-App\Bookingapp\Bookingapp\obj\Debug\netcoreapp3.1\Razor\Views\TypeReservation\Edit.cshtml.g.cs
+C:\Users\Youcode\Desktop\booking-web-App\Bookingapp\Bookingapp\obj\Debug\netcoreapp3.1\Razor\Views\TypeReservation\Delete.cshtml.g.cs
