@@ -1,5 +1,6 @@
 ﻿using Bookingapp.Data;
 using Bookingapp.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -10,6 +11,8 @@ using System.Threading.Tasks;
 
 namespace Bookingapp.Controllers
 {
+
+    [Authorize(Roles = "Admin")]
     public class AdminController : Controller
     {
         private readonly RoleManager<IdentityRole> roleManager;
@@ -22,6 +25,7 @@ namespace Bookingapp.Controllers
             this.userManager = userManager;
         }
 
+        //Create role
         [HttpGet]
         public IActionResult CreateRole()
         {
@@ -54,6 +58,8 @@ namespace Bookingapp.Controllers
             return View(model);
         }
 
+
+        //list roles
         [HttpGet]
         public IActionResult ListRoles()
         {
@@ -61,6 +67,19 @@ namespace Bookingapp.Controllers
             return View(roles);
         }
 
+
+        [HttpPost]
+        public async Task<ActionResult> Delete(string id)
+        {
+            IdentityRole role = await roleManager.FindByIdAsync(id);
+            if (!(role is null))
+            {
+                var result = await roleManager.DeleteAsync(role);
+            }
+            return RedirectToAction(nameof(ListRoles));
+        }
+
+        //EditRole
         [HttpGet]
         public async Task<IActionResult> EditRole(string id)
         {
@@ -116,7 +135,8 @@ namespace Bookingapp.Controllers
                 return View(model);
             }
         }
-
+      
+        //Edite User in role
         [HttpGet]
         public async Task<IActionResult> EditUsersInRole(string roleId)
         {
@@ -157,6 +177,8 @@ namespace Bookingapp.Controllers
             return View(model);
         }
 
+
+        [HttpPost]
         public async Task<IActionResult> EditUsersInRole(List<UserRole> model, string roleId)
         {
             var role = await roleManager.FindByIdAsync(roleId);
@@ -196,6 +218,59 @@ namespace Bookingapp.Controllers
             }
 
             return RedirectToAction("EditRole", new { Id = roleId });
+     
+        }
+    
+        [HttpPost]
+    public async Task<IActionResult> DeletUser(string id)
+        {
+            var user = await userManager.FindByIdAsync(id);
+
+            if (user == null)
+            {
+                ViewBag.ErrorMessage = $"User with Id {id} cannot be found";
+                return View("NotFound");
+            }
+            else
+            {
+                var result = await userManager.DeleteAsync(user);
+
+                if (result.Succeeded)
+                {
+                    return RedirectToAction("ListUsers");
+                }
+                foreach(var error in result.Errors)
+                {
+                    ModelState.AddModelError("", error.Description);
+                }
+                return View("ListUsers");
+            }
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> DeletRole(string id)
+        {
+            var role = await roleManager.FindByIdAsync(id);
+
+            if (role == null)
+            {
+                ViewBag.ErrorMessage = $"Role with Id {id} cannot be found";
+                return View("NotFound");
+            }
+            else
+            {
+                var result = await roleManager.DeleteAsync(role);
+
+                if (result.Succeeded)
+                {
+                    return RedirectToAction("ListRoles");
+                }
+                foreach (var error in result.Errors)
+                {
+                    ModelState.AddModelError("", error.Description);
+                }
+                return View("ListRoles");
+            }
         }
     }
 }

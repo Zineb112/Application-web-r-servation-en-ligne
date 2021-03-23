@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Bjzf6x6800gPDYQNMlyP3veTEm8wdGjY9K5/uXKZUtRe0U1Hi9Hls7v110+7AU4TFjHaAN2LZx+3lzj+Lw3nrw==",
+  "dgSpecHash": "Az2HK23HN1IPKhFOTUnJl+yssbh6RopFdmOKCUsREw1sIKde6Ak/LGW+QJo8wkx6mx7wEgOkef1fnj7WVRisfg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Youcode\\Desktop\\booking-web-App\\Bookingapp\\Bookingapp\\Bookingapp.csproj",
   "expectedPackageFiles": [
@@ -8,7 +8,7 @@
     "C:\\Users\\Youcode\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.12\\microsoft.aspnetcore.cryptography.keyderivation.3.1.12.nupkg.sha512",
     "C:\\Users\\Youcode\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\3.1.12\\microsoft.aspnetcore.diagnostics.entityframeworkcore.3.1.12.nupkg.sha512",
     "C:\\Users\\Youcode\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
-    "C:\\Users\\Youcode\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\3.1.12\\microsoft.aspnetcore.identity.entityframeworkcore.3.1.12.nupkg.sha512",
+    "C:\\Users\\Youcode\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\3.1.1\\microsoft.aspnetcore.identity.entityframeworkcore.3.1.1.nupkg.sha512",
     "C:\\Users\\Youcode\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\3.1.12\\microsoft.aspnetcore.identity.ui.3.1.12.nupkg.sha512",
     "C:\\Users\\Youcode\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\3.1.12\\microsoft.aspnetcore.mvc.razor.extensions.3.1.12.nupkg.sha512",
     "C:\\Users\\Youcode\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\3.1.12\\microsoft.aspnetcore.mvc.razor.runtimecompilation.3.1.12.nupkg.sha512",

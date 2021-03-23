@@ -359,7 +359,6 @@ C:\Users\Youcode\Desktop\booking-web-App\Bookingapp\Bookingapp\bin\Debug\netcore
 C:\Users\Youcode\Desktop\booking-web-App\Bookingapp\Bookingapp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\Youcode\Desktop\booking-web-App\Bookingapp\Bookingapp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\Youcode\Desktop\booking-web-App\Bookingapp\Bookingapp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Youcode\Desktop\booking-web-App\Bookingapp\Bookingapp\obj\Debug\netcoreapp3.1\Bookingapp.csprojAssemblyReference.cache
 C:\Users\Youcode\Desktop\booking-web-App\Bookingapp\Bookingapp\obj\Debug\netcoreapp3.1\Bookingapp.AssemblyInfoInputs.cache
 C:\Users\Youcode\Desktop\booking-web-App\Bookingapp\Bookingapp\obj\Debug\netcoreapp3.1\Bookingapp.AssemblyInfo.cs
 C:\Users\Youcode\Desktop\booking-web-App\Bookingapp\Bookingapp\obj\Debug\netcoreapp3.1\Bookingapp.csproj.CoreCompileInputs.cache
@@ -439,3 +438,5 @@ C:\Users\Youcode\Desktop\booking-web-App\Bookingapp\Bookingapp\obj\Debug\netcore
 C:\Users\Youcode\Desktop\booking-web-App\Bookingapp\Bookingapp\obj\Debug\netcoreapp3.1\Razor\Views\TypeReservation\Edit.cshtml.g.cs
 C:\Users\Youcode\Desktop\booking-web-App\Bookingapp\Bookingapp\obj\Debug\netcoreapp3.1\Razor\Views\TypeReservation\Delete.cshtml.g.cs
 C:\Users\Youcode\Desktop\booking-web-App\Bookingapp\Bookingapp\obj\Debug\netcoreapp3.1\Razor\Views\Admin\EditUsersInRole.cshtml.g.cs
+C:\Users\Youcode\Desktop\booking-web-App\Bookingapp\Bookingapp\obj\Debug\netcoreapp3.1\Razor\Views\AdminReservation\Index.cshtml.g.cs
+C:\Users\Youcode\Desktop\booking-web-App\Bookingapp\Bookingapp\obj\Debug\netcoreapp3.1\Bookingapp.csprojAssemblyReference.cache
