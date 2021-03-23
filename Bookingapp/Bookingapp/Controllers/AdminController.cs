@@ -67,7 +67,7 @@ namespace Bookingapp.Controllers
             return View(roles);
         }
 
-
+        //DeleteRole
         [HttpPost]
         public async Task<ActionResult> Delete(string id)
         {
